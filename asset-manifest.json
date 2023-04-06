@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/S2UZY/React-beginner/static/js/main.6fcdc499.chunk.js",
-    "main.js.map": "/S2UZY/React-beginner/static/js/main.6fcdc499.chunk.js.map",
-    "runtime-main.js": "/S2UZY/React-beginner/static/js/runtime-main.613e0deb.js",
-    "runtime-main.js.map": "/S2UZY/React-beginner/static/js/runtime-main.613e0deb.js.map",
-    "static/js/2.607684dc.chunk.js": "/S2UZY/React-beginner/static/js/2.607684dc.chunk.js",
-    "static/js/2.607684dc.chunk.js.map": "/S2UZY/React-beginner/static/js/2.607684dc.chunk.js.map",
-    "index.html": "/S2UZY/React-beginner/index.html",
-    "static/js/2.607684dc.chunk.js.LICENSE.txt": "/S2UZY/React-beginner/static/js/2.607684dc.chunk.js.LICENSE.txt"
+    "main.js": "//React-beginner/coin_app/static/js/main.6fcdc499.chunk.js",
+    "main.js.map": "//React-beginner/coin_app/static/js/main.6fcdc499.chunk.js.map",
+    "runtime-main.js": "//React-beginner/coin_app/static/js/runtime-main.063ec41f.js",
+    "runtime-main.js.map": "//React-beginner/coin_app/static/js/runtime-main.063ec41f.js.map",
+    "static/js/2.91f66c4c.chunk.js": "//React-beginner/coin_app/static/js/2.91f66c4c.chunk.js",
+    "static/js/2.91f66c4c.chunk.js.map": "//React-beginner/coin_app/static/js/2.91f66c4c.chunk.js.map",
+    "index.html": "//React-beginner/coin_app/index.html",
+    "static/js/2.91f66c4c.chunk.js.LICENSE.txt": "//React-beginner/coin_app/static/js/2.91f66c4c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.613e0deb.js",
-    "static/js/2.607684dc.chunk.js",
+    "static/js/runtime-main.063ec41f.js",
+    "static/js/2.91f66c4c.chunk.js",
     "static/js/main.6fcdc499.chunk.js"
   ]
 }
