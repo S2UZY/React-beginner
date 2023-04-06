@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "//React-beginner/coin_app/static/js/main.6fcdc499.chunk.js",
-    "main.js.map": "//React-beginner/coin_app/static/js/main.6fcdc499.chunk.js.map",
+    "main.js": "//React-beginner/coin_app/static/js/main.98c0d570.chunk.js",
+    "main.js.map": "//React-beginner/coin_app/static/js/main.98c0d570.chunk.js.map",
     "runtime-main.js": "//React-beginner/coin_app/static/js/runtime-main.063ec41f.js",
     "runtime-main.js.map": "//React-beginner/coin_app/static/js/runtime-main.063ec41f.js.map",
     "static/js/2.91f66c4c.chunk.js": "//React-beginner/coin_app/static/js/2.91f66c4c.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.063ec41f.js",
     "static/js/2.91f66c4c.chunk.js",
-    "static/js/main.6fcdc499.chunk.js"
+    "static/js/main.98c0d570.chunk.js"
   ]
 }
