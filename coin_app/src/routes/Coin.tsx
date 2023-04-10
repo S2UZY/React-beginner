@@ -82,12 +82,12 @@ const Tab = styled.span<{ isActive: boolean }>`
 `;
 
 const Home = styled.button`
-    background-color: rgba(0,0,0,0.5);
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    border-width: 0px;
-    font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border-width: 0px;
+  font-size: 12px;
 `;
 
 interface RouteParams {
@@ -153,8 +153,8 @@ interface PriceData {
 function Coin() {
   const { coinId } = useParams<RouteParams>();
   const { state } = useLocation<RouteState>();
-  const priceMatch = useRouteMatch("/coin_app/:coinId/price");
-  const chartMatch = useRouteMatch("/coin_app/:coinId/chart");
+  const priceMatch = useRouteMatch("/React-beginner/:coinId/price");
+  const chartMatch = useRouteMatch("/React-beginner/:coinId/chart");
   const { isLoading: infoLoading, data: infoData } = useQuery<InfoData>(
     ["info", coinId],
     () => fetchCoinInfo(coinId)
@@ -168,8 +168,8 @@ function Coin() {
   );
   const loading = infoLoading || tickersLoading;
   return (
-    <Container>    
-      <Link to={{ pathname: `/coin_app` }}>
+    <Container>
+      <Link to={{ pathname: `/React-beginner` }}>
         <Home>HOME</Home>
       </Link>
       <Helmet>
@@ -214,18 +214,18 @@ function Coin() {
 
           <Tabs>
             <Tab isActive={chartMatch !== null}>
-              <Link to={`/coin_app/${coinId}/chart`}>Chart</Link>
+              <Link to={`/React-beginner/${coinId}/chart`}>Chart</Link>
             </Tab>
             <Tab isActive={priceMatch !== null}>
-              <Link to={`/coin_app/${coinId}/price`}>Price</Link>
+              <Link to={`/React-beginner/${coinId}/price`}>Price</Link>
             </Tab>
           </Tabs>
 
           <Switch>
-            <Route path={`/coin_app/:coinId/price`}>
+            <Route path={`/React-beginner/:coinId/price`}>
               <Price />
             </Route>
-            <Route path={`/coin_app/:coinId/chart`}>
+            <Route path={`/React-beginner/:coinId/chart`}>
               <Chart coinId={coinId} />
             </Route>
           </Switch>

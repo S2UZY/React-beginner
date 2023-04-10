@@ -81,7 +81,7 @@ function Coins() {
             <Coin key={coin.id}>
               <Link
                 to={{
-                  pathname: `/coin_app/${coin.id}`,
+                  pathname: `/React-beginner/${coin.id}`,
                   state: { name: coin.name },
                 }}
               >

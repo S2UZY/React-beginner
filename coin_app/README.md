@@ -1,2 +1,3 @@
-# coin_app
+# React-beginner
+
 react beginner

@@ -6,10 +6,10 @@ function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/coin_app/:coinId">
+        <Route path="/React-beginner/:coinId">
           <Coin />
         </Route>
-        <Route path="/coin_app/">
+        <Route path="/React-beginner/">
           <Coins />
         </Route>
       </Switch>
