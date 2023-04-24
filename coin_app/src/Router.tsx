@@ -9,7 +9,7 @@ function Router() {
         <Route path="/React-beginner/:coinId">
           <Coin />
         </Route>
-        <Route path="/React-beginner/">
+        <Route path="/React-beginner">
           <Coins />
         </Route>
       </Switch>
